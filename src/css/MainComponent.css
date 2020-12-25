@@ -1,0 +1,51 @@
+.SearchBox {
+	margin-top: 50px
+}
+
+.SearchIcon {
+	padding-top: 5px;
+	border: 1px solid #ced4da;
+	border-left: none;
+	border-radius: 0em 2em 2em 0em;
+	width:50px;
+}
+
+.ListGroupItem {
+	text-align : left;
+}
+
+.ListGroupItem:hover {
+	cursor : pointer;
+	background-color: #D3D3D3;
+}
+
+.SearchResults {
+	position : absolute;
+	width : 530px;
+	overflow-y : auto;
+	max-height : 200px;
+	padding-left : 20px;
+	padding-right:0px;
+	z-index: 2;	
+}
+
+.Btn {
+	height: 35px;
+	width: 35px;
+	border-radius: 2em;
+	padding: 0px
+}
+
+.Btn:hover {
+	background-color: #D3D3D3;	
+}
+
+#viewBtn:hover {
+	background-color: #007BFF;
+	opacity: 0.5;	
+}
+
+#delBtn:hover {
+	background-color: #DC3545;
+	opacity: 0.5;	
+}
